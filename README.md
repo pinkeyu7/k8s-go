@@ -41,7 +41,7 @@
 | Admin Account Server    | [casbin-auth-go](https://github.com/pinkeyu7/casbin-auth-go)       |
 | Oauth Management Server | [oauth2-console-go](https://github.com/pinkeyu7/oauth2-console-go) |
 | User Management Server  | -                                                                  |
-| Admin App                | -                                                                |
+| Admin App               | -                                                                  |
 
 ## Data Storage
 

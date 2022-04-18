@@ -2,12 +2,13 @@
 
 ## Description
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;這是一個自己實作分散式系統的專案，算是對於過去的工作經驗的一次總結，目前已經先把主要架構想好，然後利用時間將每一個 Service 慢慢的建立起來。預計是先將 Service 先各自開發完成獨立的專案，再改寫微服務的版本再部署，最後開發前端 APP 做收尾。
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This is a project for summarizing working experience before. I develop each service individually
+in my free time. After all service is done, I’ll refactor these services to fix micro system architecture.
 
 ### Feature
 
-- 面向使用者的部分，使用者在登入時需要先經過 Oauth 驗證，確認具有權限後取得 jwt token，再和 API server 取得資料。
-- 面向管理者的部分，則是有權限系統、Oauth 管理系統以及使用者管理系統。
+- For client, user can use api after loging in by oauth verfication and getting jwt token.
+- For admin, maneger can manage admin manager's permissions, users, oauth clients and scopes via admin console.
 
 ### Target
 
